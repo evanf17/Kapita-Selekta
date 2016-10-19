@@ -48,13 +48,13 @@ k. kemudian git push origin master. Gunanya untuk mengupload file tadi ke dalam 
 BAGAIMANA JIKA KITA MEM-PUSH ORIGIN MASTER MUNCUL PESAN ERROR 403 SEPERTI GAMBAR DI BAWAH INI?
 <p align="center">
 <br>
-<img src="../../img/error403.JPG" width="400" height="200">
+<img src="../../img/error403.JPG" width="800" height="200">
 </p><br>
 Pesan error tersebut disebabkan ketika sebelumnya terdapat akun github lain (user lain) yang masuk/sign in di laptop kita yang menyebabkan ketika kita mem-push ijinnya ditolak oleh user lain, sehingga muncul error 403. Nah cara mengatasinya yaitu sebagai berikut:<br>
-a. Masuk ke control panel-->User Accounts-->Credential Manager
-b. Lalu klik windows credentials
-c. Pada Generic Credentials, kita remove git:https://github.com
-d. Coba kita push ulang di gitbash maka kita akan berhasil tanpa gangguan pesan error tadi.
+a. Masuk ke control panel-->User Accounts-->Credential Manager<br>
+b. Lalu klik windows credentials<br>
+c. Pada Generic Credentials, kita remove git:https://github.com<br>
+d. Coba kita push ulang di gitbash maka kita akan berhasil tanpa gangguan pesan error tadi.<br>
 
 Selesai sudah tutorial GitHub dari mulai add key, membuat repository baru dan mengupload file ke github dan cara mengatasi problem error403(ketika push ditolak oleh user lain). <br>
 
@@ -62,7 +62,7 @@ Selesai sudah tutorial GitHub dari mulai add key, membuat repository baru dan me
 Jadi, Github adalah server repository Git open source dimana disana terdapat repository yang bersifat public (bisa dilihat oleh semua orang).<br>
 
 <strong>SARAN</strong><br>
-Sebaiknya aplikasi ini bisa terus diimplementasikan pada kalangan pelajar sehingga mempermudah pelajar lainnya untuk mendapatkan informasi dan berbagai informasi.
+Sebaiknya aplikasi ini bisa terus diimplementasikan pada kalangan pelajar sehingga mempermudah pelajar lainnya untuk mendapatkan informasi dan berbagai informasi.<br>
 
 
 
