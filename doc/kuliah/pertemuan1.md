@@ -7,7 +7,7 @@
 <p align="justify">
 <strong>PEMBUKAAN</strong><br>
 Latar Belakang<br>
-Pada kesempatan ini, kita akan bahas tentang tutorial menambahkan SSH Key, Membuat Repository baru dan mengupload file ke github melalui GitBash untuk memenuhi salah satu tugas kapita selekta.<br>
+Pada kesempatan ini, kita akan bahas tentang tutorial menambahkan SSH Key, Membuat Repository baru dan mengupload file ke github melalui GitBash serta cara mengatasi problem error 403 tentang penolakan izin push oleh user lain. Dimana semua itu untuk memenuhi salah satu tugas kapita selekta.<br>
 
 <strong>ISI</strong><br>
 Github adalah server repository git yang paling terkenal saat ini . Dengan github kita bisa membuat repository public yang bisa dilihat oleh banyak orang dan bersifat open source.<br>
@@ -45,7 +45,18 @@ i. Ketikan git status, disana terlihat bahwa kita bisa mengcommit file tersebut<
 j. git commit -m "menambahkan file pertemuan1". Nah pada bagian ini kita bisa memberikan komentar apa yang sudah kita tambahkan/ubah/hapus.<br>
 k. kemudian git push origin master. Gunanya untuk mengupload file tadi ke dalam repository.<br>
 
-Selesai sudah tutorial GitHub dari mulai add key, membuat repository baru dan mengupload file ke github. <br>
+BAGAIMANA JIKA KITA MEM-PUSH ORIGIN MASTER MUNCUL PESAN ERROR 403 SEPERTI GAMBAR DI BAWAH INI?
+<p align="center">
+<br>
+<img src="../../img/error403.JPG" width="400" height="200">
+</p><br>
+Pesan error tersebut disebabkan ketika sebelumnya terdapat akun github lain (user lain) yang masuk/sign in di laptop kita yang menyebabkan ketika kita mem-push ijinnya ditolak oleh user lain, sehingga muncul error 403. Nah cara mengatasinya yaitu sebagai berikut:<br>
+a. Masuk ke control panel-->User Accounts-->Credential Manager
+b. Lalu klik windows credentials
+c. Pada Generic Credentials, kita remove git:https://github.com
+d. Coba kita push ulang di gitbash maka kita akan berhasil tanpa gangguan pesan error tadi.
+
+Selesai sudah tutorial GitHub dari mulai add key, membuat repository baru dan mengupload file ke github dan cara mengatasi problem error403(ketika push ditolak oleh user lain). <br>
 
 <strong>KESIMPULAN</strong><br>
 Jadi, Github adalah server repository Git open source dimana disana terdapat repository yang bersifat public (bisa dilihat oleh semua orang).<br>
